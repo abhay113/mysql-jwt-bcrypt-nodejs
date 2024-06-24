@@ -1,0 +1,7 @@
+<form #auth="ngForm" (ngSubmit)="login(auth.value)">
+
+    <input type="text" required name="username" ngModel><br>
+    <input type="email" required name="email" ngModel><br>
+    <input type="password" required name="password" ngModel><br>
+    <button type="submit">Auth</button>
+</form>
